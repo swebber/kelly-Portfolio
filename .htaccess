@@ -1,0 +1,43 @@
+# Apache Rewrite Rules
+<IfModule mod_rewrite.c>
+Options +FollowSymlinks
+RewriteEngine On
+RewriteBase /
+
+# Protect the htaccess file
+<Files .htaccess>
+Order Allow,Deny
+Deny from all
+</Files>
+
+# Protect connection and config files
+<Files ./connection.php>
+Order Allow,Deny
+Deny from all
+</Files>
+
+<Files ./config.php>
+Order Allow,Deny
+Deny from all
+</Files>
+
+# Disable directory browsing
+Options All -Indexes
+
+# -- Production --
+# RewriteCond %{SERVER_PORT} 80
+# RewriteRule ^(.*)$ https://austinandkelly.net/$1 [R,L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^/]*)/([^/]*)$ /index.php?controller=$1&action=$2 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^/]+)$ /index.php?controller=$1 [L]
+
+#RewriteRule ^(about)/?$ /index.php?controller=$1&action=index [L]
+
+# End of Apache Rewrite Rules
+</IfModule>

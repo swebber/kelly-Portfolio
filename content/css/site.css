@@ -1,0 +1,22 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.portfolio-item .row,
+.home-page .row {
+    margin-bottom: 20px;
+}
+
+.display-side {
+    margin-top: 20px;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .col-xs-12:not(:first-child) {
+        margin-top:20px;
+    }
+}
