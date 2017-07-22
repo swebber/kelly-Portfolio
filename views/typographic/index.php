@@ -45,7 +45,7 @@
         <div class="col-sm-12 text-center">
             <a href="/meat" class="btn btn-default">PREVIOUS</a>
             <a href="/typographic" class="btn btn-default">BACK TO TOP</a>
-            <a href="/atlantic-magazine" class="btn btn-default">NEXT</a>
+            <a href="/atlantic" class="btn btn-default">NEXT</a>
         </div>
     </div>
 

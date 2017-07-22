@@ -78,12 +78,12 @@
 
     <div class="row">
         <div class="col-xs-12 col-sm-2 col-md-offset-1 col-md-2">
-            <h4><a href="/atlantic-magazine">ATLANTIC MAGAZINE</a></h4>
+            <h4><a href="/atlantic">ATLANTIC MAGAZINE</a></h4>
             Publication<br />
             Photography
         </div>
         <div class="col-xs-12 col-sm-10 col-md-8">
-            <a href="/atlantic-magazine"><img class="img-responsive" src="/content/img/atlantic-magazine/atlantic-magazine-header.jpg" alt="atlantic magazine" /></a>
+            <a href="/atlantic"><img class="img-responsive" src="/content/img/atlantic/atlantic-magazine-header.jpg" alt="atlantic magazine" /></a>
         </div>
     </div>
 
