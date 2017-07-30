@@ -1,4 +1,4 @@
-<div class="Intention portfolio-item">
+<div class="intention portfolio-item">
 
     <div class="row">
         <div class="hidden-xs col-sm-6 col-md-offset-1 col-md-5">
@@ -52,6 +52,7 @@
             <img class="img-responsive" src="/content/img/intention/intention-009.jpg" />
         </div>
     </div>
+
     <div class="row">
         <div class="col-xs-12 col-sm-4 col-md-offset-1 col-md-3">
             <ul class="fa-ul">
@@ -62,9 +63,44 @@
             </ul>
         </div>
         <div class="col-xs-12 col-sm-8 col-md-7">
-            Slideshow goes here...
+            <div id="intentionCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+                <!-- Carousel indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#intentionCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#intentionCarousel" data-slide-to="1"></li>
+                    <li data-target="#intentionCarousel" data-slide-to="2"></li>
+                    <li data-target="#intentionCarousel" data-slide-to="3"></li>
+                    <li data-target="#intentionCarousel" data-slide-to="4"></li>
+                </ol>
+                <!-- Wrapper for carousel items -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img class="d-block img-fluid" src="/content/img/intention/carousel-001.jpg" alt="First slide">
+                    </div>
+                    <div class="item">
+                        <img class="d-block img-fluid" src="/content/img/intention/carousel-002.jpg" alt="Second slide">
+                    </div>
+                    <div class="item">
+                        <img class="d-block img-fluid" src="/content/img/intention/carousel-003.jpg" alt="Third slide">
+                    </div>
+                    <div class="item">
+                        <img class="d-block img-fluid" src="/content/img/intention/carousel-004.jpg" alt="Fourth slide">
+                    </div>
+                    <div class="item">
+                        <img class="d-block img-fluid" src="/content/img/intention/carousel-005.jpg" alt="Fifth slide">
+                    </div>
+                </div>
+                <!-- Carousel controls -->
+                <a class="carousel-control left" href="#intentionCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="carousel-control right" href="#intentionCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
         </div>
     </div>
+    
     <div class="row">
         <div class="col-sm-12 text-center">
             <a href="/terra" class="btn btn-default">PREVIOUS</a>
@@ -72,4 +108,5 @@
             <a href="/chewy" class="btn btn-default">NEXT</a>
         </div>
     </div>
+
 </div>
