@@ -3,9 +3,11 @@ body {
     color: rgb(127, 126, 126);
 }
 
+/* right margin marquee */
+
 aside.marquee {
     position: fixed;
-    height: 4rem;
+    height: 5rem;
     width: 100vh;
     overflow: visible;
     z-index: 10000;
@@ -29,10 +31,52 @@ aside.marquee {
 aside.marquee p {
     display: block;
     position: fixed;
-    line-height: 3rem;
     white-space: nowrap;
     overflow: visible;
+    margin-top: 1.5rem;
     right: 40px;
+}
+
+/* left margin marquee */
+
+aside.marquee-left {
+    position: fixed;
+    height: 5rem;
+    width: 100vh;
+    overflow: visible;
+    z-index: 10000;
+    top: 0;
+    right: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+    -webkit-transform-origin: right top 0;
+    -moz-transform-origin: right top 0;
+    -ms-transform-origin: right top 0;
+    -o-transform-origin: right top 0;
+    transform-origin: right top 0;
+    border-bottom: 1px solid black;
+}
+
+aside.marquee-left p {
+    display: block;
+    position: fixed;
+    white-space: nowrap;
+    overflow: visible;
+    margin-top: 1.5rem;
+    right: 40px;
+}
+
+aside a:link,
+aside a:visited,
+aside a:hover,
+aside a:active {
+    color: rgb(0, 120, 255);
+    text-decoration: none;
 }
 
 h4 {
@@ -68,9 +112,9 @@ p {
 }
 
 .about-page a:link,
-.about-page  a:visited,
-.about-page  a:hover,
-.about-page  a:active {
+.about-page a:visited,
+.about-page a:hover,
+.about-page a:active {
     color: rgb(0, 120, 255);
     text-decoration: underline;
 }

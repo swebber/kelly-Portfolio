@@ -34,8 +34,7 @@ switch ($controller) {
   </head>
   <body>
 
-    <?php // <nav class="navbar navbar-inverse visible-xs"> ?>
-    <nav class="navbar navbar-inverse">
+    <nav class="navbar navbar-inverse visible-xs">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle navbar-right" data-toggle="collapse" data-target="#myNavbar">
@@ -55,9 +54,13 @@ switch ($controller) {
       </div>
     </nav>
 
-<?php
-/*
-    <aside class="marquee">
+    <aside class="marquee-left hidden-xs">
+      <p>
+        <a href="/">KELLY WEBBER</a>
+      </p>
+    </aside>
+
+    <aside class="marquee hidden-xs">
       <p>
         <a href="/about">ABOUT</a>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -66,10 +69,9 @@ switch ($controller) {
         <a href="/elsewhere">ELSEWHERE</a>
       </p>
     </aside>
-*/
-?>
 
     <div class="container">
+    <div class="hidden-xs">&nbsp;</div>
     <?php require_once('routes.php'); ?>
     </div>
 
