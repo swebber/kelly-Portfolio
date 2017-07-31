@@ -48,7 +48,7 @@ switch ($controller) {
           <ul class="nav navbar-nav navbar-right">
             <li class="<?php echo $homeActive ?>"><a href="/">Home</a></li>
             <li class="<?php echo $aboutActive ?>"><a href="/about">About</a></li>
-            <li class="<?php echo $resumeActive ?>"><a href="/resume">Resume</a></li>
+            <li class="<?php echo $resumeActive ?>"><a href="https://www.dropbox.com/s/02klhtxzbhw3y9b/KellyWebber_Resume_020317.pdf?dl=0" target="_blank">Resume</a></li>
             <li class="<?php echo $elsewhereActive ?>"li><a href="/elsewhere">Elsewhere</a></li>
           </ul>
       </div>
