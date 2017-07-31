@@ -1,10 +1,10 @@
 <div class="atlantic portfolio-item">
 
     <div class="row">
-        <div class="hidden-xs col-sm-6 col-md-offset-1 col-md-5">
+        <div class="hidden-xs col-sm-offset-1 col-sm-5">
             <img class="img-responsive" src="/content/img/atlantic/atlantic-001.jpg" />
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-5">
+        <div class="col-xs-12 col-sm-5">
             2016
             <h4>ATLANTIC MAGAZINE</h4>
             <p>I was tasked by Darhil Crooks, the previous creative director for <i>The Atlantic Magazine</i>, with conceptualizing and designing a cover for their recent March, 2016 issue, which features an article, “Liquid Assets." The goal of this project was to design something that communicated the story, but which also functioned on a news stand, maintaining the brand of <i>The Atlantic</i>.</p>
@@ -17,7 +17,7 @@
     </div>
 
     <div class="row">
-        <div class="col-sm-12 col-md-offset-1 col-md-10">
+        <div class="col-sm-12 col-sm-offset-1 col-sm-10">
             <div class="row">
                 <div class="col-sm-4">
                     <img class="img-responsive" src="/content/img/atlantic/atlantic-002.jpg" />
@@ -33,7 +33,7 @@
     </div>
 
     <div class="row">
-        <div class="col-xs-12 col-sm-4 col-md-offset-1 col-md-3">
+        <div class="col-xs-12 col-sm-offset-1 col-sm-3">
             <ul class="fa-ul">
                 <li>
                     <i class="fa-li fa fa-plus"></i>
@@ -47,19 +47,19 @@
     </div>
 
     <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-offset-1 col-md-5">
+        <div class="col-xs-12 col-sm-offset-1 col-sm-5">
             <img class="img-responsive" src="/content/img/atlantic/atlantic-006.jpg" />
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-5">
+        <div class="col-xs-12 col-sm-5">
             <img class="img-responsive" src="/content/img/atlantic/atlantic-007.jpg" />
         </div>
     </div>
 
     <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-offset-1 col-md-5">
+        <div class="col-xs-12 col-sm-offset-1 col-sm-5">
             <img class="img-responsive" src="/content/img/atlantic/atlantic-008.jpg" />
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-5">
+        <div class="col-xs-12 col-sm-5">
             <img class="img-responsive" src="/content/img/atlantic/atlantic-009.jpg" />
         </div>
     </div>

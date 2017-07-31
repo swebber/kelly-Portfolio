@@ -1,10 +1,10 @@
 <div class="california-tortilla portfolio-item">
 
     <div class="row">
-        <div class="hidden-xs col-sm-6 col-md-offset-1 col-md-5">
+        <div class="hidden-xs col-sm-offset-1 col-sm-5">
             <img class="img-responsive" src="/content/img/california-tortilla/california-tortilla-001.jpg" />
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-5">
+        <div class="col-xs-12 col-sm-5">
             2016
             <h4>CALIFORNIA TORTILLA</h4>
             <p>
@@ -19,34 +19,34 @@
     </div>
 
     <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-offset-1 col-md-5">
+        <div class="col-xs-12 col-sm-offset-1 col-sm-5">
             <img class="img-responsive" src="/content/img/california-tortilla/california-tortilla-002.gif" />
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-5">
+        <div class="col-xs-12 col-sm-5">
             <img class="img-responsive" src="/content/img/california-tortilla/california-tortilla-003.gif" />
         </div>
     </div>
 
     <div class="row">
-        <div class="col-sm-12 col-md-offset-1 col-md-10">
+        <div class="col-sm-12 col-sm-offset-1 col-sm-10">
             <img class="img-responsive" src="/content/img/california-tortilla/california-tortilla-004.gif" />
         </div>
     </div>
 
     <div class="row">
-        <div class="col-sm-12 col-md-offset-1 col-md-10">
+        <div class="col-sm-12 col-sm-offset-1 col-sm-10">
             <img class="img-responsive" src="/content/img/california-tortilla/california-tortilla-005.gif" />
         </div>
     </div>
 
     <div class="row">
-        <div class="col-sm-12 col-md-offset-1 col-md-10">
+        <div class="col-sm-12 col-sm-offset-1 col-sm-10">
             <img class="img-responsive" src="/content/img/california-tortilla/california-tortilla-006.jpg" />
         </div>
     </div>
 
     <div class="row">
-        <div class="col-sm-12 col-md-offset-1 col-md-10">
+        <div class="col-sm-12 col-sm-offset-1 col-sm-10">
             <img class="img-responsive" src="/content/img/california-tortilla/california-tortilla-007.gif" />
         </div>
     </div>

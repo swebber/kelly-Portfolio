@@ -1,10 +1,10 @@
 <div class="trivalent portfolio-item">
 
     <div class="row">
-        <div class="hidden-xs col-sm-6 col-md-offset-1 col-md-5">
+        <div class="hidden-xs col-sm-offset-1 col-sm-5">
             <img class="img-responsive" src="/content/img/trivalent/trivalent-001.png" />
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-5">
+        <div class="col-xs-12 col-sm-5">
             2016
             <h4>TRIVALENT</h4>
             <p>
@@ -19,16 +19,16 @@
     </div>
 
     <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-offset-1 col-md-5">
+        <div class="col-xs-12 col-sm-offset-1 col-sm-5">
             <img class="img-responsive" src="/content/img/trivalent/trivalent-002.png" />
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-5">
+        <div class="col-xs-12 col-sm-5">
             <img class="img-responsive" src="/content/img/trivalent/trivalent-003.png" />
         </div>
     </div>
 
     <div class="row">
-        <div class="col-xs-12 col-sm-4 col-md-offset-1 col-md-3">
+        <div class="col-xs-12 col-sm-offset-1 col-sm-6">
             <ul class="fa-ul">
                 <li>
                     <i class="fa-li fa fa-plus"></i>
@@ -39,7 +39,7 @@
     </div>
 
     <div class="row">
-        <div class="col-sm-12 col-md-offset-1 col-md-10">
+        <div class="col-sm-12 col-sm-offset-1 col-sm-10">
             <img class="img-responsive" src="/content/img/trivalent/trivalent-004.png" />
         </div>
     </div>

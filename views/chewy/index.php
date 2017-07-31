@@ -1,7 +1,7 @@
 <div class="chewy portfolio-item">
 
     <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-offset-1 col-md-5">
+        <div class="col-xs-12 col-sm-offset-1 col-sm-5">
             2015
             <h4>CHEWY.COM</h4>
             <p>
@@ -13,37 +13,37 @@
     </div>
 
     <div class="row">
-        <div class="col-sm-12 col-md-offset-1 col-md-10">
+        <div class="col-sm-12 col-sm-offset-1 col-sm-10">
             <img class="img-responsive" src="/content/img/chewy/chewy-001.gif" />
         </div>
     </div>
 
     <div class="row">
-        <div class="col-sm-12 col-md-offset-1 col-md-10">
+        <div class="col-sm-12 col-sm-offset-1 col-sm-10">
             <i class="fa fa-circle fullwidth" aria-hidden="true"></i>
         </div>
     </div>
 
     <div class="row">
-        <div class="col-sm-12 col-md-offset-1 col-md-10">
+        <div class="col-sm-12 col-sm-offset-1 col-sm-10">
             <img class="img-responsive" src="/content/img/chewy/chewy-002.jpg" />
         </div>
     </div>
 
     <div class="row">
-        <div class="col-sm-12 col-md-offset-1 col-md-10">
+        <div class="col-sm-12 col-sm-offset-1 col-sm-10">
             <i class="fa fa-circle fullwidth" aria-hidden="true"></i>
         </div>
     </div>
 
     <div class="row">
-        <div class="col-sm-12 col-md-offset-1 col-md-10">
+        <div class="col-sm-12 col-sm-offset-1 col-sm-10">
             <img class="img-responsive" src="/content/img/chewy/chewy-003.jpg" />
         </div>
     </div>
 
     <div class="row">
-        <div class="col-sm-12 col-md-offset-1 col-md-10">
+        <div class="col-sm-12 col-sm-offset-1 col-sm-10">
             <i class="fa fa-circle fullwidth" aria-hidden="true"></i>
         </div>
     </div>
