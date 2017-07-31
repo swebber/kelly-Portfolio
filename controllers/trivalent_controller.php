@@ -3,6 +3,6 @@
 class TrivalentController {
 
     public function index() {
-        require_once('/views/trivalent/index.php');
+        require_once('./views/trivalent/index.php');
     }
 }

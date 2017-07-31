@@ -7,4 +7,4 @@ $action = isset($_GET['action']) ? $_GET['action'] : 'index';
 
 // var_dump($controller, $action);
 
-require_once('/views/layout.php');
+require_once('./views/layout.php');

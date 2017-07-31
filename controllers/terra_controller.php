@@ -3,6 +3,6 @@
 class TerraController {
 
     public function index() {
-        require_once('/views/terra/index.php');
+        require_once('./views/terra/index.php');
     }
 }
