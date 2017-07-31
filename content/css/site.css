@@ -3,6 +3,38 @@ body {
     color: rgb(127, 126, 126);
 }
 
+aside.marquee {
+    position: fixed;
+    height: 4rem;
+    width: 100vh;
+    overflow: visible;
+    z-index: 10000;
+    top: 0;
+    left: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin: left top 0;
+    -moz-transform-origin: left top 0;
+    -ms-transform-origin: left top 0;
+    -o-transform-origin: left top 0;
+    transform-origin: left top 0;
+    border-bottom: 1px solid black;
+}
+
+aside.marquee p {
+    display: block;
+    position: fixed;
+    line-height: 3rem;
+    white-space: nowrap;
+    overflow: visible;
+    right: 40px;
+}
+
 h4 {
     color: rgb(0, 120, 255);
     font-size: 19px;

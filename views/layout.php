@@ -34,6 +34,7 @@ switch ($controller) {
   </head>
   <body>
 
+    <?php // <nav class="navbar navbar-inverse visible-xs"> ?>
     <nav class="navbar navbar-inverse">
       <div class="container">
         <div class="navbar-header">
@@ -53,6 +54,20 @@ switch ($controller) {
           </ul>
       </div>
     </nav>
+
+<?php
+/*
+    <aside class="marquee">
+      <p>
+        <a href="/about">ABOUT</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.dropbox.com/s/02klhtxzbhw3y9b/KellyWebber_Resume_020317.pdf?dl=0" target="_blank">RESUME</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="/elsewhere">ELSEWHERE</a>
+      </p>
+    </aside>
+*/
+?>
 
     <div class="container">
     <?php require_once('routes.php'); ?>
