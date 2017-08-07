@@ -77,12 +77,16 @@ aside a:link,
 aside a:visited,
 aside a:hover,
 aside a:active {
-    color: rgb(0, 120, 255);
+    color: rgb(127, 126, 126);
     text-decoration: none;
 }
 
 aside a:hover {
     text-decoration: underline;
+}
+
+aside a.active {
+    color: rgb(0, 120, 255);
 }
 
 h4 {

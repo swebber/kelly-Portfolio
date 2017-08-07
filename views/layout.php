@@ -49,24 +49,24 @@ switch ($controller) {
             <li class="<?php echo $homeActive ?>"><a href="/">Home</a></li>
             <li class="<?php echo $aboutActive ?>"><a href="/about">About</a></li>
             <li class="<?php echo $resumeActive ?>"><a href="https://www.dropbox.com/s/02klhtxzbhw3y9b/KellyWebber_Resume_020317.pdf?dl=0" target="_blank">Resume</a></li>
-            <li class="<?php echo $elsewhereActive ?>"li><a href="/elsewhere">Elsewhere</a></li>
+            <li class="<?php echo $elsewhereActive ?>"><a href="/elsewhere">Elsewhere</a></li>
           </ul>
       </div>
     </nav>
 
     <aside class="marquee-left hidden-xs">
       <p>
-        <a href="/">KELLY WEBBER</a>
+        <a href="/" class="<?php echo $homeActive ?>">KELLY WEBBER</a>
       </p>
     </aside>
 
     <aside class="marquee hidden-xs">
       <p>
-        <a href="/about">ABOUT</a>
+        <a href="/about" class="<?php echo $aboutActive ?>">ABOUT</a>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://www.dropbox.com/s/02klhtxzbhw3y9b/KellyWebber_Resume_020317.pdf?dl=0" target="_blank">RESUME</a>
+        <a href="https://www.dropbox.com/s/02klhtxzbhw3y9b/KellyWebber_Resume_020317.pdf?dl=0" class="<?php echo $resumeActive ?>" target="_blank">RESUME</a>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="/elsewhere">ELSEWHERE</a>
+        <a href="/elsewhere" class="<?php echo $elsewhereActive ?>">ELSEWHERE</a>
       </p>
     </aside>
 
