@@ -3,6 +3,6 @@
 class ElsewhereController {
 
     public function index() {
-        require_once('/views/elsewhere/index.php');
+        require_once('./views/elsewhere/index.php');
     }
 }

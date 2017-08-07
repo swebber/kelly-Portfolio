@@ -3,6 +3,6 @@
 class AboutController {
 
     public function index() {
-        require_once('/views/about/index.php');
+        require_once('./views/about/index.php');
     }
 }

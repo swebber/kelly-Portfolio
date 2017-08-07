@@ -3,6 +3,6 @@
 class CaliforniaTortillaController {
 
     public function index() {
-        require_once('/views/california-tortilla/index.php');
+        require_once('./views/california-tortilla/index.php');
     }
 }

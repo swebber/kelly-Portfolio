@@ -3,6 +3,6 @@
 class MeatController {
 
     public function index() {
-        require_once('/views/meat/index.php');
+        require_once('./views/meat/index.php');
     }
 }

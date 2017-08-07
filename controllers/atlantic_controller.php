@@ -3,6 +3,6 @@
 class AtlanticController {
 
     public function index() {
-        require_once('/views/atlantic/index.php');
+        require_once('./views/atlantic/index.php');
     }
 }
