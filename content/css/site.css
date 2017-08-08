@@ -82,7 +82,7 @@ aside a:active {
 }
 
 aside a:hover {
-    text-decoration: underline;
+    border-bottom: 2px solid rgb(0, 120, 255);
 }
 
 aside a.active {
