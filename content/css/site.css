@@ -25,7 +25,8 @@ aside.marquee {
     -ms-transform-origin: left top 0;
     -o-transform-origin: left top 0;
     transform-origin: left top 0;
-    border-bottom: 1px solid black;
+    border-bottom: 1px dotted #d3d1d1;
+    letter-spacing: 2px;
 }
 
 aside.marquee p {
@@ -59,7 +60,8 @@ aside.marquee-left {
     -ms-transform-origin: right top 0;
     -o-transform-origin: right top 0;
     transform-origin: right top 0;
-    border-bottom: 1px solid black;
+    border-bottom: 1px dotted #d3d1d1;
+    letter-spacing: 2px;
 }
 
 aside.marquee-left p {
@@ -75,13 +77,26 @@ aside a:link,
 aside a:visited,
 aside a:hover,
 aside a:active {
-    color: rgb(0, 120, 255);
+    color: rgb(127, 126, 126);
     text-decoration: none;
+}
+
+aside a:hover {
+    border-bottom: 2px solid rgb(0, 120, 255);
+}
+
+aside a.active {
+    color: rgb(0, 120, 255);
 }
 
 h4 {
     color: rgb(0, 120, 255);
     font-size: 19px;
+    letter-spacing: 2px;
+}
+
+.home-page h4 {
+    margin-top: 0;
 }
 
 h4 a:link,
