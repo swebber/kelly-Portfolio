@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     color: rgb(127, 126, 126);
 }
 
@@ -26,7 +27,6 @@ aside.marquee {
     -o-transform-origin: left top 0;
     transform-origin: left top 0;
     border-bottom: 1px dotted #d3d1d1;
-    letter-spacing: 2px;
 }
 
 aside.marquee p {
@@ -61,7 +61,6 @@ aside.marquee-left {
     -o-transform-origin: right top 0;
     transform-origin: right top 0;
     border-bottom: 1px dotted #d3d1d1;
-    letter-spacing: 2px;
 }
 
 aside.marquee-left p {
@@ -71,6 +70,11 @@ aside.marquee-left p {
     overflow: visible;
     margin-top: 1.5rem;
     right: 40px;
+}
+
+aside p {
+    font-size: 13px;
+    font-weight: 300;
 }
 
 aside a:link,
@@ -87,16 +91,18 @@ aside a:hover {
 
 aside a.active {
     color: rgb(0, 120, 255);
+    font-weight: 500;
 }
 
 h4 {
     color: rgb(0, 120, 255);
     font-size: 19px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .home-page h4 {
     margin-top: 0;
+    margin-bottom: 2px;
 }
 
 h4 a:link,
@@ -111,13 +117,35 @@ i.fa::before {
     color: rgb(0, 120, 255);
 }
 
-p {
+p,
+li {
     font-size: 16px;
 }
 
-.portfolio-item .row,
+.home-page {
+    margin-top: 40px;
+}
+
 .home-page .row {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.portfolio-item {
+    margin-top: 80px;
+}
+
+.portfolio-item .row {
+    margin-bottom: 40px;
+}
+
+.portfolio-item h4 {
+    text-transform: uppercase;
+}
+
+.portfolio-item p,
+.portfolio-item li {
+    line-height: 1.7em;
+    font-weight: 400;
 }
 
 .about-page h2 {
@@ -160,6 +188,31 @@ p {
     display: flex;
     align-items: center;
 }
+
+.footer-nav {
+    font-size: 13px;
+}
+
+    .footer-nav a {
+        margin-right: 15px;
+        margin-left: 15px;
+        color: rgb(0, 120, 255);
+    }
+
+        .footer-nav a:first-child {
+            margin-left: 0;
+        }
+
+    .footer-nav a:link,
+    .footer-nav a:visited,
+    .footer-nav a:hover,
+    .footer-nav a:active {
+        text-decoration: none;
+    }
+
+    .footer-nav a:hover {
+        border-bottom: 2px solid rgb(0, 120, 255);
+    }
 
 @media (max-width: 767px) {
     .col-xs-12:not(:first-child) {

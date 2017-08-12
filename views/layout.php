@@ -18,6 +18,14 @@ switch ($controller) {
     $elsewhereActive = "active";
     break;
 }
+
+function footer($prev, $top, $next) {
+    echo '<div class="row footer-nav">' . "\n";
+    echo '<div class="col-sm-12 col-sm-offset-1 col-sm-10">' . "\n";
+    echo '<a href="/' . $prev . '">PREVIOUS</a>|<a href="/' . $top . '">BACK TO TOP</a>|<a href="/'. $next .'">NEXT</a>' . "\n";
+    echo '</div>' . "\n";
+    echo '</div>' . "\n";
+}
 ?>
 
 <!DOCTYPE html>
@@ -26,7 +34,7 @@ switch ($controller) {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
     <link rel="stylesheet" href="/content/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="/content/css/site.css?v=001">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
@@ -71,7 +79,6 @@ switch ($controller) {
     </aside>
 
     <div class="container">
-    <div class="hidden-xs">&nbsp;</div>
     <?php require_once('routes.php'); ?>
     </div>
 

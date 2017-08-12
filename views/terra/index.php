@@ -211,11 +211,5 @@
             <img class="img-responsive" src="/content/img/terra/display05.jpg" />
         </div>
     </div>
-    <div class="row">
-        <div class="col-sm-12 text-center">
-            <a href="/california-tortilla" class="btn btn-default">PREVIOUS</a>
-            <a href="/terra" class="btn btn-default">BACK TO TOP</a>
-            <a href="/intention" class="btn btn-default">NEXT</a>
-        </div>
-    </div>
+<?php footer("california-tortilla", "terra", "intention"); ?>
 </div>
