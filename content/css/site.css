@@ -166,6 +166,10 @@ li {
     margin-top: 20px;
 }
 
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
 .img-responsive {
     width: 100%;
 }

@@ -36,7 +36,7 @@ function footer($prev, $top, $next) {
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
     <link rel="stylesheet" href="/content/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/content/css/site.css?v=002">
+    <link rel="stylesheet" href="/content/css/site.css?v=003">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
